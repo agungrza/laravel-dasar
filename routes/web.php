@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-    return 'Tutorial Laravel Dasar CodeWithAriza';
+    return view('test');
 });
